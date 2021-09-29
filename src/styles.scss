@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url("./assets/pattern-bg.png");
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: "Rubik";
+  overflow: hidden;
+  @media screen and (min-width: 1440px) {
+    background-size: contain;
+  }
+}

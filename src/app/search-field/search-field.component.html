@@ -1,0 +1,4 @@
+<mat-form-field appearance="fill" [ngClass]="{'error': error}">
+  <input [(ngModel)]="content" matInput placeholder="Search for any IP address or domain">
+  <button (click)="onClick($event)"><img src="assets/icon-arrow.svg" alt="arrow"></button>
+</mat-form-field>

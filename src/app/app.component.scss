@@ -1,0 +1,18 @@
+h1 {
+  color: white;
+  font-weight: 500;
+  padding-top: 10px;
+  text-align: center;
+}
+
+app-search-field {
+  margin: 20px;
+}
+
+#map {
+  height: 70%;
+  margin-top: 5%;
+  @media screen and (max-width: 768px) {
+    height: 80%;
+  }
+}

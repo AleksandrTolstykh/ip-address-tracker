@@ -1,0 +1,64 @@
+input {
+  height: 50px;
+  width: calc(100% - 50px);
+}
+
+button {
+  background-color: black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 50px;
+  width: 50px;
+  &:hover {
+    background-color: hsl(0, 0%, 17%);
+    cursor: pointer;
+  }
+}
+
+.error {
+  border: 3px red solid;
+}
+
+::ng-deep {
+  .mat-form-field {
+    background-color: white;
+    border-radius: 15px;
+    display: table!important;
+    font-family: "Rubik"!important;
+    font-weight: 400!important;
+    margin: auto;
+    width: 50%;
+    @media screen and (max-width: 768px) {
+      width: 90%;
+    }
+  }
+
+  .mat-form-field-flex {
+    background-color: transparent!important;
+  }
+
+  .mat-form-field-underline {
+      display: none;
+  }
+
+  input::-webkit-input-placeholder {
+    color: hsl(0, 0%, 59%)!important;
+  }
+
+  .mat-form-field-appearance-fill {
+    .mat-form-field-infix {
+      padding: 0!important;
+    }
+    .mat-form-field-flex {
+      padding: 0!important;
+    }
+  }
+
+  .mat-form-field-infix {
+    border-top: none!important;
+  }
+
+  .mat-form-field-wrapper {
+      padding: 0!important;
+  }
+}

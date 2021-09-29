@@ -1,0 +1,32 @@
+.mat-grid-list {
+  background-color: white;
+  border-radius: 15px;
+  margin: 20px 10%;
+  width: 80%;
+  position: absolute;
+  z-index: 1000;
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    margin: 20px 5%;
+    width: 90%;
+  }
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 24px;
+  height: 75px;
+  @media screen and (max-width: 768px) {
+    height: 15px;
+  }
+}
+
+p {
+  color: hsl(0, 0%, 59%);
+  font-weight: 700;
+  font-size: 12px;
+  height: 25px;
+  @media screen and (max-width: 768px) {
+    height: 15px;
+  }
+}
